@@ -1,0 +1,13 @@
+src/civic_os/
+├─ __init__.py
+├─ orchestrator.py        # คุม flow IC → … → Audit → Learn
+├─ first_principles.py    # แตกปัญหาเป็น axioms / invariants / levers
+├─ system_map.py          # boundary / incentive / feedback loop
+├─ ooda_loop.py           # Observe–Orient–Decide–Act
+├─ audit_gate.py          # Truth / Logic / Risk / Bias / Clarity
+├─ metrics.py             # คำนวณ + ตรวจ outcome metrics
+├─ falsifier_engine.py    # ตรวจเงื่อนไข “ระบบกำลังผิด”
+├─ signed_memory.py       # append-only decision log
+└─ adapters/
+   ├─ llm_adapter.py      # เชื่อม LLM (OpenAI / Gemini / local)
+   └─ tool_adapter.py     # เชื่อม data / workflow ภายนอก
